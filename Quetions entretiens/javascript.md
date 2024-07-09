@@ -100,3 +100,88 @@ async function fetchData() {
 ## Qu'est-ce que ça veut dire XHR ?
 
 XHR signifie XMLHttpRequest, un objet en JavaScript utilisé pour interagir avec des serveurs. Il permet d'envoyer des requêtes HTTP et HTTPS, de récupérer des données à partir d'URL sans avoir à recharger la page entière. XHR est souvent utilisé pour implémenter des fonctionnalités de type AJAX (Asynchronous JavaScript and XML).
+
+## Qu'est-ce que Webpack ?
+
+Webpack est un module bundler pour les applications JavaScript. Il prend les modules avec des dépendances et les compile en un ou plusieurs bundles statiques qui peuvent être chargés par un navigateur. Webpack peut transformer, emballer, et optimiser des fichiers comme JavaScript, CSS, et images grâce à ses loaders et plugins.
+
+## Qu'est-ce qu'un polyfill ?
+
+Un polyfill est un morceau de code (souvent JavaScript) qui fournit la fonctionnalité que vous attendez qu'un navigateur implémente de manière native. Il permet d'utiliser des fonctionnalités modernes sur des navigateurs plus anciens qui ne les supportent pas encore.
+
+## Qu'est-ce que Docker ?
+
+Docker est une plateforme qui permet de créer, déployer et exécuter des applications dans des conteneurs. Les conteneurs encapsulent une application et ses dépendances, offrant ainsi un environnement cohérent et isolé pour l'exécution. Docker simplifie le déploiement et la gestion des applications, indépendamment de l'environnement sous-jacent.
+
+## Qu'est-ce qu'une architecture MicroServices ?
+
+Une architecture microservices est une approche de développement logiciel où une application est structurée comme un ensemble de services faiblement couplés. Chaque service est responsable d'une fonctionnalité spécifique et peut être développé, déployé et mis à l'échelle indépendamment. Cela permet une plus grande flexibilité et scalabilité.
+
+## Comment fonctionne Redux ?
+
+Redux est une bibliothèque de gestion d'état pour les applications JavaScript. Elle utilise un store unique pour gérer l'état de l'application. Les actions décrivent les changements, et les reducers spécifient comment l'état change en réponse aux actions. Redux suit trois principes clés : un seul store, l'état est en lecture seule, et les changements sont effectués via des fonctions pures appelées reducers.
+
+## Quelle est la différence entre Cordova et React Native ?
+
+Cordova : Utilise des technologies web (HTML, CSS, JavaScript) pour créer des applications mobiles. Le code est exécuté dans une WebView, une vue de navigateur intégrée.
+React Native : Utilise React et JavaScript pour construire des composants natifs. Le code JavaScript s'exécute via un bridge qui communique avec les composants natifs, offrant de meilleures performances et une expérience utilisateur plus native.
+
+## Qu'est-ce que Next.js ?
+
+Next.js est un framework React pour le rendu côté serveur (SSR) et la génération de sites statiques (SSG). Il simplifie la création d'applications React avec des fonctionnalités comme le routage basé sur les fichiers, le rendu côté serveur, et l'optimisation des performances.
+
+## Qu'est-ce que Gatsby ?
+
+Gatsby est un générateur de sites statiques basé sur React. Il utilise GraphQL pour récupérer les données et construit des sites web rapides et performants. Gatsby est idéal pour les blogs, les portfolios, et les sites de documentation.
+
+## Avez-vous entendu parlé des nouveautés ES2020 ?
+
+ES2020 (ECMAScript 2020) introduit plusieurs nouvelles fonctionnalités, notamment :
+
+Optional chaining (?.)
+Nullish coalescing operator (??)
+BigInt
+Dynamic import
+Promise.allSettled
+globalThis
+Modules import/export dans les scripts
+Qu'est-ce que la coercition en JavaScript ?
+La coercition en JavaScript est la conversion automatique ou implicite de valeurs d'un type à un autre. Elle peut être explicite (utilisation de fonctions comme Number(), String()) ou implicite (lorsque des opérateurs comme +, == sont utilisés avec différents types de valeurs).
+
+## Quelles sont les différences entre set et array ?
+
+Set :
+Une collection de valeurs uniques.
+Ne permet pas les doublons.
+Les éléments ne sont pas indexés.
+Opérations de recherche et d'insertion plus rapides.
+Array :
+Une collection de valeurs ordonnées.
+Permet les doublons.
+Les éléments sont indexés.
+Offre plus de méthodes pour manipuler les données.
+
+## Connaissez-vous les styled components ?
+
+Oui, Styled Components est une bibliothèque pour React et React Native qui permet d'utiliser des styles CSS au sein des composants JavaScript. Elle utilise des balises de template littérales pour écrire des styles, offrant ainsi un style encapsulé et dynamique.
+
+## Quelles sont les primitives en JavaScript ? (piège : les symboles sont apparus en ES6 !)
+
+Les primitives en JavaScript incluent :
+
+string
+number
+boolean
+null
+undefined
+symbol (introduit en ES6)
+bigint (introduit en ES2020)
+
+## Quelles sont les nouveautés avec React 17 ?
+
+React 17 introduit des améliorations principalement centrées sur la facilitation des mises à niveau et de l'intégration progressive :
+
+Aucune nouvelle fonctionnalité de rupture majeure : Principalement des changements sous le capot.
+Meilleure gestion des événements : Délégation des événements au niveau du conteneur racine.
+Compatibilité progressive : Permet l'exécution de plusieurs versions de React sur la même page.
+Améliorations des outils de développement : Amélioration de la détection des problèmes de compatibilité et des avertissements.
