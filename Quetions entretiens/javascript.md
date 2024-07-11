@@ -43,14 +43,14 @@ La programmation fonctionnelle est un paradigme de programmation qui traite le c
 
 ## Quelle est la différence entre la programmation fonctionnelle et la programmation orientée objet ?
 
-Programmation fonctionnelle :
-Se concentre sur les fonctions pures et l'évaluation des expressions.
-Utilise l'immutabilité et évite les effets de bord.
-Les fonctions d'ordre supérieur et la composition de fonctions sont des concepts clés.
-Programmation orientée objet :
-Se concentre sur les objets qui contiennent des données et des méthodes.
-Utilise des concepts comme l'encapsulation, l'héritage et le polymorphisme.
-Les objets peuvent avoir un état mutable et des effets de bord.
+- Programmation fonctionnelle :
+  Se concentre sur les fonctions pures et l'évaluation des expressions.
+  Utilise l'immutabilité et évite les effets de bord.
+  Les fonctions d'ordre supérieur et la composition de fonctions sont des concepts clés.
+- Programmation orientée objet :
+  Se concentre sur les objets qui contiennent des données et des méthodes.
+  Utilise des concepts comme l'encapsulation, l'héritage et le polymorphisme.
+  Les objets peuvent avoir un état mutable et des effets de bord.
 
 ## Qu'est-ce que la phase de bouillonnement (bubbling) ?
 
