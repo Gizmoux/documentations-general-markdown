@@ -28,7 +28,8 @@ npm init -y
 npm install express cors mongoose nodemon
 ```
 
-Création du serveur Node
+## Création du serveur Node
+
 Node.js utilise le système de modules CommonJS
 require est utilisé pour importer des modules au lieu de import
 Nodemon est utilisé pour redémarrer automatiquement le serveur lors des modifications
@@ -58,7 +59,7 @@ const Student = mongoose.model("Student", {
   },
 });
 
-Opérations CRUD
+## Opérations CRUD
 
 - **Create**
 
@@ -135,5 +136,3 @@ Pour démarrer le serveur :
 bash
 npm start
 ```
-
-Cette structure est plus claire et plus facile à suivre pour un fichier Markdown. Elle inclut une table des matières, des sections bien définies, et des blocs de code correctement formatés.
