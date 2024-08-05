@@ -14,7 +14,7 @@
 - **Document** : Unité de base de stockage dans MongoDB (similaire à une ligne dans SQL)
 - **Collection** : Groupe de documents (similaire à une table dans SQL)
 - **BSON** : Format binaire utilisé par MongoDB pour stocker les documents
-- **\_id** : Identifiant unique automatiquement généré pour chaque document
+- **id** : Identifiant unique automatiquement généré pour chaque document
 - **Agrégation** : Framework pour effectuer des opérations de traitement de données
 - **Replica Set** : Groupe de serveurs MongoDB maintenant les mêmes données
 - **Sharding** : Méthode de distribution des données sur plusieurs serveurs
